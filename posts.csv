@@ -1,0 +1,16 @@
+Date,Content,Image_URL
+2026-03-27,"Why do we still care about Big O Notation in 2026 when computers are so fast? 🚀
+
+Because inefficient code scales terribly. 
+
+Here is the ultimate breakdown of Time & Space Complexity:
+🔹 O(1) - Constant: The dream. Array lookups.
+🔹 O(log n) - Logarithmic: The standard. Binary search.
+🔹 O(n) - Linear: The baseline. Simple loops.
+🔹 O(n^2) - Quadratic: The danger zone. Nested loops.
+
+Builder's Angle 🛠️: When I optimize embedded C code for microcontrollers with limited RAM, jumping from O(n^2) to O(n log n) isn't just a ""nice to have""—it prevents the entire hardware system from crashing.
+
+What is the worst time complexity you've ever seen make it into production? 👇
+
+#SoftwareEngineering #DSA #EmbeddedSystems #Python #Algorithms","https://images.unsplash.com/photo-1555066931-4365d14bab8c"
