@@ -1,16 +1,156 @@
 Date,Content,Image_URL
-2026-03-26,"Why do we still care about Big O Notation in 2026 when computers are so fast? 🚀
+2026-03-26,"Just automated my entire LinkedIn posting schedule using a custom Python microservice and GitHub Actions. 🚀
+
+Engineers shouldn't do repetitive tasks. If you do something every day, automate it. 
+
+I used:
+🔹 Python for the API logic
+🔹 LinkedIn Developers API (OAuth 2.0)
+🔹 GitHub Actions for the CRON scheduler
+
+If you want the architecture breakdown, let me know in the comments! 👇
+#SoftwareEngineering #Python #GitHubActions #Automation #DevOps","https://images.unsplash.com/photo-1618401471353-b98afee0b2eb"
+2026-03-28,"Why do we still care about Big O Notation in 2026 when computers are so fast? 🚀
 
 Because inefficient code scales terribly. 
 
-Here is the ultimate breakdown of Time & Space Complexity:
-🔹 O(1) - Constant: The dream. Array lookups.
-🔹 O(log n) - Logarithmic: The standard. Binary search.
-🔹 O(n) - Linear: The baseline. Simple loops.
-🔹 O(n^2) - Quadratic: The danger zone. Nested loops.
+🔹 O(1) - Constant: The dream.
+🔹 O(log n) - Logarithmic: The standard (Binary search).
+🔹 O(n) - Linear: The baseline.
+🔹 O(n^2) - Quadratic: The danger zone.
 
-Builder's Angle 🛠️: When I optimize embedded C code for microcontrollers with limited RAM, jumping from O(n^2) to O(n log n) isn't just a ""nice to have""—it prevents the entire hardware system from crashing.
+When I optimize embedded C code for microcontrollers with limited RAM, jumping from O(n^2) to O(n log n) prevents the entire hardware system from crashing.
+#DSA #Algorithms #EmbeddedSystems","https://images.unsplash.com/photo-1555066931-4365d14bab8c"
+2026-03-29,"Zero Trust Security isn't a product. It's an architecture. 🔒
 
-What is the worst time complexity you've ever seen make it into production? 👇
+The old model: ""Trust everyone inside the network.""
+The new model: ""Trust no one, verify everything.""
 
-#SoftwareEngineering #DSA #EmbeddedSystems #Python #Algorithms","https://images.unsplash.com/photo-1555066931-4365d14bab8c"
+Whether you are configuring firewalls in Kali Linux or building cloud microservices, always assume the network is already compromised. Identity is the new perimeter. 
+#CyberSecurity #ZeroTrust #InfoSec #KaliLinux","https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5"
+2026-03-30,"HashMaps are the duct tape of software engineering. 🛠️
+
+Need to count frequencies? HashMap.
+Need to optimize a nested loop? HashMap.
+Need O(1) lookups? HashMap.
+
+Mastering how hash collisions work under the hood (Chaining vs Open Addressing) is the difference between writing code that works and code that scales.
+#DataStructures #SoftwareDevelopment #Python","https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+2026-03-31,"Embedded Systems vs. Web Development: A Tale of Two Worlds 🌍
+
+In Web Dev, a memory leak might slow down a tab.
+In Embedded Systems, a memory leak bricks the hardware.
+
+Working close to the metal with C/C++ forces you to respect memory allocation. It makes you a fundamentally better engineer, even when you go back to high-level languages like Python.
+#EmbeddedC #IoT #SoftwareEngineering #Tech","https://images.unsplash.com/photo-1518770660439-4636190af475"
+2026-04-01,"The best debugging tool isn't a profiler. It's a walk. 🚶‍♂️
+
+Staring at the same block of Python code for 3 hours will give you tunnel vision. Stepping away from the keyboard lets your subconscious process the logic flow. 
+
+I've solved more bugs making a cup of coffee than I have staring at VS Code. 
+#DeveloperLife #Coding #MentalHealth #Python","https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+2026-04-02,"What exactly is Kali Linux? 🐉
+
+It’s not just for ""hackers."" It’s an advanced penetration testing distribution that every security-conscious engineer should explore. 
+
+Understanding tools like Nmap, Wireshark, and Metasploit helps you build better, more resilient applications because you finally understand how attackers see your code. 
+#KaliLinux #CyberSecurity #EthicalHacking","https://images.unsplash.com/photo-1555949963-ff9fe0c870eb"
+2026-04-03,"APIs are the nervous system of the modern web. 🌐
+
+If you are building an API, keep these 3 REST principles in mind:
+1. Use nouns, not verbs in your endpoints (e.g., /users, not /getUsers).
+2. Keep it stateless. The server shouldn't remember client context between requests.
+3. Use correct HTTP status codes (Don't return 200 OK for an error!).
+
+What is your favorite API to work with?
+#WebDevelopment #API #Backend #SoftwareArchitecture","https://images.unsplash.com/photo-1544197150-b99a580bb7a8"
+2026-04-04,"Continuous Integration / Continuous Deployment (CI/CD) is magic. ✨
+
+Pushing code to GitHub and having a server automatically run tests, build the image, and deploy to production within minutes gives you an incredible development velocity. 
+
+If you haven't written a YAML workflow yet, start today. It changes everything.
+#DevOps #CICD #GitHubActions #CloudComputing","https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9"
+2026-04-05,"The 'Imposter Syndrome' in Tech is real, but it's actually a good sign. 🧠
+
+If you feel like you don't know what you are doing, it means you are stretching yourself. The technology landscape moves too fast to know everything. 
+
+The goal isn't to memorize the syntax. The goal is to learn how to learn.
+#TechCommunity #GrowthMindset #SoftwareEngineering","https://images.unsplash.com/photo-1522071820081-009f0129c71c"
+2026-04-06,"Let's talk about the OSI Model. 📡
+
+You don't just need this for networking exams—you need it for debugging.
+When a web app is broken, where is the issue?
+Is it Layer 7 (Application - Bad API logic)?
+Is it Layer 4 (Transport - Blocked port)?
+Is it Layer 3 (Network - DNS/Routing failure)?
+
+Thinking in layers saves you hours of troubleshooting.
+#Networking #IT #CyberSecurity #DevOps","https://images.unsplash.com/photo-1544197150-b99a580bb7a8"
+2026-04-07,"Python is amazing, but it has one major flaw: The Global Interpreter Lock (GIL). 🐍
+
+Because of the GIL, standard Python threads can't execute Python bytecodes in parallel on multiple CPU cores. For I/O-bound tasks, threading is great. But for CPU-bound tasks? You need to use Multiprocessing.
+
+Know your tools, but more importantly, know their limitations.
+#Python #Programming #BackendDevelopment #Architecture","https://images.unsplash.com/photo-1526379095098-d400fd0bfce8"
+2026-04-08,"My top 3 VS Code extensions I install on every new machine:
+
+1. Error Lens: Highlights errors inline so I don't have to hover.
+2. GitLens: Supercharges Git capabilities right in the editor.
+3. Prettier: Code formatting shouldn't be a manual task.
+
+What is the one extension you cannot live without?
+#VSCode #Productivity #DeveloperTools #Coding","https://images.unsplash.com/photo-1607799279861-4dddf8d601d3"
+2026-04-09,"Hardware is hard. 🔌
+
+Writing code that interacts directly with physical sensors (I2C, SPI, UART protocols) requires a completely different mindset than software. You are dealing with clock speeds, voltage levels, and physical noise. 
+
+It's challenging, but nothing beats the feeling of making an LED blink for the very first time.
+#Electronics #Microcontrollers #EmbeddedC #Hardware","https://images.unsplash.com/photo-1517077304055-6e89abbf09b0"
+2026-04-10,"Never deploy on a Friday. 🛑
+
+Unless you have absolute confidence in your automated test suite, a rollback plan, and you enjoy working over the weekend. 
+
+Have a great Friday, everyone! 
+#SoftwareEngineering #DevOps #TechHumor","https://images.unsplash.com/photo-1534438327276-14e5300c3a48"
+2026-04-11,"Pointers in C/C++ are notorious for terrifying students. 💀
+
+But once you realize a pointer is just a variable that holds a memory address instead of a value, the matrix unspools. You unlock the power to pass massive structures around without copying them.
+
+Master memory, master the machine.
+#CProgramming #ComputerScience #Tech","https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
+2026-04-12,"What makes an engineer 'Senior'? 🎯
+
+It's not just years of experience or writing complex algorithms. 
+It’s knowing what *not* to build.
+It’s knowing when to use a simple script instead of a massive framework.
+It’s mentoring juniors and writing documentation that actually helps.
+
+Code is read far more often than it is written.
+#CareerGrowth #SeniorEngineer #TechLeadership","https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
+2026-04-13,"Let’s talk about Asymmetric Encryption. 🔑
+
+How do two computers communicate securely over a public, unsecured internet? Public and Private keys. 
+I encrypt the message with your Public Key (which everyone can see). 
+Only your Private Key (which only you have) can decrypt it. 
+
+It’s the mathematical foundation of modern cybersecurity and HTTPS.
+#CyberSecurity #Cryptography #InfoSec","https://images.unsplash.com/photo-1555949963-aa79dcee981c"
+2026-04-14,"Recursion is a concept that hurts your brain until it clicks. 🔄
+
+To understand recursion, you must first understand recursion. 
+Jokes aside, knowing how the Call Stack works under the hood is essential for writing recursive functions that don't end in a Stack Overflow Error. Always define your base case first!
+#Algorithms #DSA #SoftwareEngineering","https://images.unsplash.com/photo-1504639725590-34d0984388bd"
+2026-04-15,"The Terminal is your best friend. 💻
+
+GUIs are great for everyday tasks, but the Command Line gives you raw, unfiltered power over your machine. Learning basic bash commands (grep, awk, sed, chmod) will speed up your workflow exponentially. 
+
+Don't be afraid of the black screen with the blinking cursor. 
+#Linux #Bash #DeveloperProductivity #Commandline","https://images.unsplash.com/photo-1629654297299-c8506221ca97"
+2026-04-16,"My current tech stack focus:
+🔹 Python for Logic and APIs
+🔹 GitHub Actions for Automation/CI-CD
+🔹 Embedded C for hardware integration
+🔹 Kali Linux for understanding Security/Zero Trust
+
+The goal is to be a T-shaped engineer: Broad knowledge across the stack, with deep expertise in specific architectures. What are you studying right now? 
+#TechStack #Learning #DevOps #Engineering","https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
