@@ -1,5 +1,5 @@
 Date,Content,Image_URL
-2026-04-25,"Why move your NIDS logic to the 'Edge'? 🧠
+2026-04-26,"Why move your NIDS logic to the 'Edge'? 🧠
 
 When building my BeagleBone Black intrusion detection system, I realized cloud-only security has a fatal flaw: Latency.
 
