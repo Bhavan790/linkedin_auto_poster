@@ -40,7 +40,7 @@ Controller = decides
 
 The intelligence of a system begins before the AI ever sees the data.
 
-#EmbeddedSystems #EdgeAI #IoT #SignalProcessing #Engineering",""
+#EmbeddedSystems #EdgeAI #IoT #SignalProcessing #Engineering",images/post01_sensor_to_ai.png
 2026-08-20,"⚡ CAN A MOTOR TELL YOU IT IS ABOUT TO FAIL?
 
 Not directly.
@@ -83,7 +83,7 @@ It's to detect meaningful changes early enough to act.
 
 That's where AI + embedded sensing becomes powerful.
 
-#PredictiveMaintenance #AIoT #IndustrialIoT #MachineLearning #SmartManufacturing",""
+#PredictiveMaintenance #AIoT #IndustrialIoT #MachineLearning #SmartManufacturing",images/post02_predictive_maintenance.png
 2026-08-22,"📐 A CONTROLLER CAN BE PERFECT ON PAPER AND STILL FAIL IN HARDWARE.
 
 In simulation:
@@ -121,7 +121,7 @@ I ask:
 
 That's where robustness begins.
 
-#ControlSystems #PowerElectronics #EmbeddedSystems #ElectricalEngineering #MATLAB",""
+#ControlSystems #PowerElectronics #EmbeddedSystems #ElectricalEngineering #MATLAB",images/post03_controller_robustness.png
 2026-08-25,"🔢 12-BIT ADC.
 
 Sounds impressive.
@@ -157,7 +157,7 @@ Accuracy tells you how close the measurement is to reality.
 
 A datasheet number is only the beginning of the calculation.
 
-#EmbeddedSystems #Electronics #ADC #HardwareDesign #Engineering",""
+#EmbeddedSystems #Electronics #ADC #HardwareDesign #Engineering",images/post04_adc_resolution.png
 2026-08-27,"🔧 MY EMBEDDED DEBUGGING FLOWCHART
 
 When hardware doesn't work, my first instinct used to be:
@@ -206,7 +206,7 @@ Debugging isn't guessing.
 
 It's systematically eliminating possibilities.
 
-#EmbeddedSystems #Debugging #Electronics #Engineering #Hardware",""
+#EmbeddedSystems #Debugging #Electronics #Engineering #Hardware",images/post05_debugging_flowchart.png
 2026-08-30,"🤖 WHY DOES AI THAT WORKS ON A LAPTOP SOMETIMES FAIL ON A MICROCONTROLLER?
 
 Because deployment changes the problem.
@@ -255,7 +255,7 @@ This is why TinyML is fascinating.
 
 AI becomes a completely different engineering problem when every byte and millisecond matters.
 
-#TinyML #EdgeAI #EmbeddedAI #MachineLearning #EmbeddedSystems",""
+#TinyML #EdgeAI #EmbeddedAI #MachineLearning #EmbeddedSystems",images/post06_tinyml.png
 2026-09-02,"📊 DON'T JUDGE A CONTROL SYSTEM BY ONE WAVEFORM.
 
 A beautiful output waveform can still hide poor dynamic performance.
@@ -296,7 +296,7 @@ Simulation tells us what we designed.
 
 Testing tells us what we actually built.
 
-#PowerElectronics #ControlEngineering #MATLAB #Simulink #ElectricalEngineering",""
+#PowerElectronics #ControlEngineering #MATLAB #Simulink #ElectricalEngineering",images/post07_control_metrics.png
 2026-09-05,"📡 DATA ≠ INTELLIGENCE
 
 Imagine an industrial machine sending one current measurement every second.
@@ -349,7 +349,7 @@ The goal of IIoT isn't to collect the maximum amount of data.
 
 It's to extract maximum value from the data we collect.
 
-#IIoT #IndustrialIoT #SmartManufacturing #DataEngineering #Automation",""
+#IIoT #IndustrialIoT #SmartManufacturing #DataEngineering #Automation",images/post08_data_vs_intelligence.png
 2026-09-08,"🧠 DO YOU REALLY NEED AI?
 
 This is a question engineers should ask BEFORE choosing a model.
@@ -400,7 +400,7 @@ Good engineering isn't maximizing complexity.
 
 It's minimizing unnecessary complexity while meeting the requirements.
 
-#Engineering #AI #MachineLearning #EmbeddedSystems #SystemsEngineering",""
+#Engineering #AI #MachineLearning #EmbeddedSystems #SystemsEngineering",images/post09_do_you_need_ai.png
 2026-09-11,"💻 BIG-O IS NOT THE WHOLE STORY.
 
 Suppose:
@@ -433,7 +433,7 @@ The machine tells us how it behaves.
 
 For me, that's one of the most interesting connections between software and hardware.
 
-#Algorithms #Programming #ComputerScience #EmbeddedSystems #Engineering",""
+#Algorithms #Programming #ComputerScience #EmbeddedSystems #Engineering",images/post10_big_o.png
 2026-09-14,"☁️ WHAT IF YOUR IoT DEVICE LOSES THE INTERNET?
 
 Imagine:
@@ -480,7 +480,7 @@ A useful principle:
 
 The cloud should enhance your system—not necessarily become its single point of failure.
 
-#EdgeComputing #IoT #IndustrialIoT #DistributedSystems #EmbeddedSystems",""
+#EdgeComputing #IoT #IndustrialIoT #DistributedSystems #EmbeddedSystems",images/post11_iot_offline.png
 2026-09-17,"🚨 DESIGN FOR FAILURE.
 
 Ask yourself:
@@ -529,7 +529,7 @@ to:
 
 Because understanding failure is how you build systems that survive reality.
 
-#SystemsEngineering #EmbeddedSystems #Reliability #EngineeringDesign #Electronics",""
+#SystemsEngineering #EmbeddedSystems #Reliability #EngineeringDesign #Electronics",images/post12_design_for_failure.png
 2026-09-20,"⚖️ EVERY EMBEDDED SYSTEM IS A TRADE-OFF.
 
 Imagine a design board with four competing goals:
@@ -576,7 +576,7 @@ Optimization isn't maximizing one parameter.
 
 It's finding the right balance.
 
-#EmbeddedSystems #HardwareDesign #Electronics #Engineering #SystemDesign",""
+#EmbeddedSystems #HardwareDesign #Electronics #Engineering #SystemDesign",images/post13_tradeoffs.png
 2026-09-23,"🧪 ENGINEERING IS A BATTLE AGAINST ASSUMPTIONS.
 
 'I connected it correctly.'
@@ -621,7 +621,7 @@ The best engineers aren't the ones who never make assumptions.
 
 They're the ones who find their wrong assumptions quickly.
 
-#EngineeringMindset #EmbeddedSystems #EngineeringStudent #Debugging #Learning",""
+#EngineeringMindset #EmbeddedSystems #EngineeringStudent #Debugging #Learning",images/post14_assumptions.png
 2026-09-26,"🔄 THE MOST INTERESTING SYSTEMS LIVE BETWEEN HARDWARE AND SOFTWARE.
 
 A sensor measures the physical world.
@@ -672,4 +672,4 @@ It's a complete cyber-physical system.
 
 This intersection is exactly where I want to keep building.
 
-#ElectricalEngineering #EmbeddedSystems #ControlSystems #AIoT #CyberPhysicalSystems",""
+#ElectricalEngineering #EmbeddedSystems #ControlSystems #AIoT #CyberPhysicalSystems",images/post15_cyber_physical_loop.png
