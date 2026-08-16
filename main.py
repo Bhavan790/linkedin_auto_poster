@@ -15,17 +15,33 @@ def get_todays_post(filename):
                 return row['Content'], row.get('Image_URL', '')
     return None, None
 
-def upload_image_to_linkedin(image_url):
-    """Downloads image from URL and uploads it natively to LinkedIn"""
-    if not image_url or image_url.strip() == "":
+def upload_image_to_linkedin(image_path):
+    """Loads an image (from a local repo path OR a live URL) and uploads it natively to LinkedIn"""
+    if not image_path or image_path.strip() == "":
         return None
-        
-    print("Downloading image from Unsplash...")
-    img_response = requests.get(image_url.strip())
-    if img_response.status_code != 200:
-        print("Failed to download image.")
+
+    image_path = image_path.strip()
+
+    if image_path.lower().endswith(".pdf"):
+        print(f"Skipping '{image_path}': LinkedIn's API doesn't support PDF/carousel uploads, only single images.")
         return None
-        
+
+    if image_path.lower().startswith("http://") or image_path.lower().startswith("https://"):
+        print(f"Downloading image from {image_path} ...")
+        img_response = requests.get(image_path)
+        if img_response.status_code != 200:
+            print("Failed to download image.")
+            return None
+        image_bytes = img_response.content
+    else:
+        # Local path relative to the repo root (e.g. "images/post01_sensor_to_ai.png")
+        print(f"Reading local image file: {image_path}")
+        if not os.path.exists(image_path):
+            print(f"Image file not found at '{image_path}' (checked out repo may be missing it). Skipping image.")
+            return None
+        with open(image_path, "rb") as f:
+            image_bytes = f.read()
+
     print("Registering upload with LinkedIn...")
     register_url = "https://api.linkedin.com/v2/assets?action=registerUpload"
     headers = {
@@ -52,7 +68,7 @@ def upload_image_to_linkedin(image_url):
     
     print("Uploading image bytes to LinkedIn...")
     upload_headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
-    upload_res = requests.put(upload_url, headers=upload_headers, data=img_response.content)
+    upload_res = requests.put(upload_url, headers=upload_headers, data=image_bytes)
     
     if upload_res.status_code == 201:
         print("Image successfully uploaded!")
