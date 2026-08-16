@@ -3,7 +3,7 @@ import csv
 import requests
 from datetime import datetime
 
-ACCESS_TOKEN = os.environ.get("LINKEDIN_TOKEN")
+ACCESS_TOKEN = os.environ.get("LINKEDIN_ACCESS_TOKEN")
 AUTHOR_URN = os.environ.get("LINKEDIN_URN")
 
 def get_todays_post(filename):
